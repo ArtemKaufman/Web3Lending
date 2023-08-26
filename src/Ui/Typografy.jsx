@@ -7,7 +7,7 @@ export const Typografy = ({ children, type, dark, className }) => {
     if (type == 'description') {
       return 'text-[16px] text-white font-light leading-[22px]';
     } else if (type == 'title') {
-      return `text-white text-[28px] sm:text-[48px] font-normal leading-[34px] sm:leading-[58px]`;
+      return `font-medium text-white text-[28px] sm:text-[48px] font-normal leading-[34px] sm:leading-[58px]`;
     } else if (type == 'subtitle') {
       return 'text-white text-[20px] ';
     } else if (type == 'darkTitle') {
