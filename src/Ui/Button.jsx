@@ -9,7 +9,7 @@ export const Button = ({ type, text, onClick }) => {
   return (
     <button
       onClick={onClick}
-      className={`${buttonType} px-4 py-[10px] text-[#263039] w-[152px] h-[34px] font-medium text-sm `}
+      className={`${buttonType} font-sm-bold px-4 py-[10px] text-[#263039] w-[152px] h-[34px] font-medium text-sm `}
     >
       {text}
     </button>
