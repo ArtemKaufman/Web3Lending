@@ -3,9 +3,9 @@ import { Typografy } from '../Ui/Typografy';
 import { Container } from './Container';
 
 export const DiscoverSection = () => {
-  return (
+  return ( 
     <section className="mt-[50px] sm:mt-[135px]  border-b border-[#263039]">
-      <Container>
+      <Container> 
         <Typografy type="title">Discover Web 3 insights</Typografy>
         <div className="flex flex-col sm:flex-row gap-[31px] mt-[25px] sm:mt-[45px]">
           <div className="min-w-[335px] min-h-[210px] sm:min-h-[339px] sm:min-w-[539px] order-2 sm:order-1">
