@@ -1,6 +1,22 @@
+
+/* @import './fonts/QwitcherGrypen-Bold.ttf'; */
+/* @import '../fonts/SharpGroteskMedium20.ttf'; */
+
+@font-face {
+  font-family: 'SharpGrotesk-Book25';
+  src: url('./fonts/SharpGrotesk-Book25.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SharpGroteskSmBold20';
+  src: url('./fonts/SharpGroteskMedium25.otf') format('truetype');
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
   font-family: Helvetica, system-ui, Avenir, Arial, sans-serif;
   line-height: 1.5;
