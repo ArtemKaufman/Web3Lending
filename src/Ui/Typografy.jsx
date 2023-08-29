@@ -1,7 +1,5 @@
 import React from 'react';
 
-//description = текст маленького розміру, якщо не обираєш ніякого то буде великий текст
-
 export const Typografy = ({ children, type, dark, className }) => {
   const stylesGeneration = () => {
     if (type == 'description') {
@@ -11,7 +9,7 @@ export const Typografy = ({ children, type, dark, className }) => {
     } else if (type == 'subtitle') {
       return 'text-white text-[20px] ';
     } else if (type == 'darkTitle') {
-      return `text-[#131A21] text-[28px] sm:text-[48px] font-normal leading-[34px] sm:leading-[58px]`;
+      return `font-medium text-[#131A21] text-[28px] sm:text-[48px] font-normal leading-[34px] sm:leading-[58px]`;
     }
   };
   const styles = stylesGeneration();
