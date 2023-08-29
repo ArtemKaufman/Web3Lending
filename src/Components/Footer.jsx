@@ -25,11 +25,44 @@ export const Footer = () => {
         </div>
         <div>
           <h5 className="text-white font-medium mb-[13px]">FOLLOW</h5>
-          <div className="flex gap-8 hover:cursor-pointer">
-            <img src="./images/Vector.svg" />
-            <img src="./images/Vector-2.svg" />
-            <img src="./images/Vector-3.svg" />
-          </div>
+          <ul className="flex gap-8 hover:cursor-pointer items-center">
+            <li className="relative group">
+              <img
+                src="./images/Vector.svg"
+                alt="Vector"
+                className="group-hover:hidden"
+              />
+              <img
+                src="./images/Vector-white.svg"
+                alt="Another Image"
+                className="hidden group-hover:block"
+              />
+            </li>
+            <li className="relative group">
+              <img
+                src="./images/Vector-2.svg"
+                alt="Vector"
+                className="group-hover:hidden"
+              />
+              <img
+                src="./images/Vector-2-white.svg"
+                alt="Another Image"
+                className="hidden group-hover:block"
+              />
+            </li>
+            <li className="relative group">
+              <img
+                src="./images/Vector-3.svg"
+                alt="Vector"
+                className="group-hover:hidden"
+              />
+              <img
+                src="./images/Vector-3-white.svg"
+                alt="Another Image"
+                className="hidden group-hover:block"
+              />
+            </li>
+          </ul>
         </div>
       </Container>
     </footer>
