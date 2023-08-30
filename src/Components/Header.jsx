@@ -9,7 +9,7 @@ export const Header = () => {
         <div className="w-[114px] h-8 hover:cursor-pointer flex items-center">
           <img src="./images/logo.svg" />
         </div>
-        <Button text="Book a demo" type="filled" />
+        <Button text="Book a demo" type="filled" widthBtn="152px"/>
       </Container>
     </div>
   );

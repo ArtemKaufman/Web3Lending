@@ -7,7 +7,7 @@ export const Typografy = ({ children, type, dark, className }) => {
     } else if (type == 'title') {
       return `font-medium text-white text-[28px] sm:text-[48px] font-normal leading-[34px] sm:leading-[58px]`;
     } else if (type == 'subtitle') {
-      return 'text-white text-[20px] ';
+      return 'font-medium text-white text-[20px] ';
     } else if (type == 'darkTitle') {
       return `font-medium text-[#131A21] text-[28px] sm:text-[48px] font-normal leading-[34px] sm:leading-[58px]`;
     }
