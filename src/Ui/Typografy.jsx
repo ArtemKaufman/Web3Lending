@@ -15,6 +15,6 @@ export const Typografy = ({ children, type, dark, className }) => {
     }
   };
   const styles = stylesGeneration();
-
+ 
   return <p className={className + ' ' + styles}>{children}</p>;
 };
