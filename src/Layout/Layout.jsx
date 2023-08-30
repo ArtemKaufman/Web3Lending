@@ -11,7 +11,7 @@ import { Footer } from '../Components/Footer';
 
 export const Layout = () => {
   return (
-    <div style={{padding: '15px'}}>
+    <div>
       <Header />
       <IntroSection />
       <ProofSection />

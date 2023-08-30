@@ -1,4 +1,5 @@
-
+/* @import './fonts/QwitcherGrypen-Bold.ttf'; */
+/* @import '../fonts/SharpGroteskMedium20.ttf'; */
 
 @font-face {
   font-family: 'SharpGrotesk-Book25';
@@ -9,7 +10,6 @@
   font-family: 'SharpGroteskSmBold20';
   src: url('./fonts/SharpGroteskMedium25.otf') format('truetype');
 }
-
 
 @tailwind base;
 @tailwind components;

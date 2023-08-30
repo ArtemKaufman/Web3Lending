@@ -3,8 +3,8 @@ import React from 'react';
 export const Button = ({ type, text, widthBtn, onClick }) => {
   const buttonType =
     type === 'filled'
-      ? ' bg-[#55E5C5]  border-none'
-      : ' border border-[#263039] border-[2px]';
+      ? ' bg-[#55E5C5]  border-none hover:bg-[#9DFFE9] hover:underline '
+      : ' border border-[#263039] border-[2px] hover:text-[#55E5C5] hover:bg-[#131A21] ';
 
   return (
     <button
