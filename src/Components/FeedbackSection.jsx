@@ -11,10 +11,10 @@ export const FeedbackSection = () => {
           <Typografy type="darkTitle" className="mb-[25px] sm:mb-[19px]">
             Ready to leave your competition in the dark?
           </Typografy>
-          <Typografy className="mb-[25px] sm:mb-[28px]">
+          <Typografy className="mb-[25px] sm:mb-[28px] text-[#131A21]">
             Book a demo with our team and let’s chat through your needs.
           </Typografy>
-          <Button text="Book a demo" type="outlined" />
+          <Button text="Book a demo" type="outlined" widthBtn="185px"/>
         </div>
         <div className="mt-[41px] sm:mt-[104]">
           <img src="./images/cursor.svg" />
