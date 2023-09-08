@@ -19,9 +19,8 @@ export const IntroSection = () => {
               insights, and stay ahead of competitors and industry standards.
             </Typografy>
             <div>
-              <Button text="Book a demo" type="filled" widthBtn="185px" fontSize="base"/>
+              <Button text="Book a demo" type="filled" />
             </div>
-
           </div>
           <div className="min-w-[334px] min-h-[200px] sm:min-h-[381px] sm:min-w-[635px] ">
             <img src="./images/illustration-1.svg" />
