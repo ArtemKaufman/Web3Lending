@@ -14,7 +14,7 @@ export const FeedbackSection = () => {
           <Typografy className="mb-[25px] sm:mb-[28px] text-[#131A21]">
             Book a demo with our team and let’s chat through your needs.
           </Typografy>
-          <Button text="Book a demo" type="outlined" />
+          <Button text="Book a demo" widthBtn="185px" fontSize="base" />
         </div>
         <div className="mt-[41px] sm:mt-[104]">
           <img src="./images/cursor.svg" />

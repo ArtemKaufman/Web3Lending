@@ -1,6 +1,10 @@
 /* @import './fonts/QwitcherGrypen-Bold.ttf'; */
 /* @import '../fonts/SharpGroteskMedium20.ttf'; */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: 'SharpGrotesk-Book25';
   src: url('./fonts/SharpGrotesk-Book25.otf') format('truetype');
@@ -10,10 +14,6 @@
   font-family: 'SharpGroteskSmBold20';
   src: url('./fonts/SharpGroteskMedium25.otf') format('truetype');
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
   font-family: Helvetica, system-ui, Avenir, Arial, sans-serif;
@@ -50,4 +50,8 @@ blockquote,
 dl,
 dd {
   margin: 0;
+}
+button {
+  font-weight: 500;
+  font-family: SharpGroteskSmBold20;
 }
