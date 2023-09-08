@@ -19,7 +19,7 @@ export const IntroSection = () => {
               insights, and stay ahead of competitors and industry standards.
             </Typografy>
             <div>
-              <Button text="Book a demo" type="filled" widthBtn="185px" />
+              <Button text="Book a demo" type="filled" widthBtn="185px" fontSize="base"/>
             </div>
 
           </div>

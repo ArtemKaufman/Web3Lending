@@ -16,12 +16,22 @@ export const Footer = () => {
           </Typografy>
         </div>
         <div>
-          <h5 className="text-white font-medium mb-[13px]">PLATFORM</h5>
-          <p className="font-light text-lg leading-9 hover:cursor-pointer">
+          <h5 className="text-white font-medium mb-[13px] flex flex-wrap">PLATFORM</h5>
+          <a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbGV5RUp2ak9McGJPSklrNThseEdFTFFMcE5aQXxBQ3Jtc0ttVHRuY0dYQUVfaVYyanFYM0ZzcGFUWWpaZFkteW9NcjJnQmVJRk9pNkhqSzlwVEtwY1hIZHlERkxab1Bva0J2SjBxOG1GTEk2TWZyZkhmb0JYMU1zbzhRZXdDLS1qZU5lMUpON2FmelhoRm8wajBnVQ&q=https%3A%2F%2Ftwitter.com%2Fweb3_flows"
+            className="block font-light text-lg leading-9 hover:cursor-pointer hover:underline"
+          >
             Terms and Conditions
-            <br /> Privacy Policy
-            <br /> hello@web3flows.com
-          </p>
+          </a>
+          <a href="https://www.youtube.com/@web3flows"
+            className=" block font-light text-lg leading-9 hover:cursor-pointer hover:underline"
+          >
+            Privacy Policy
+          </a>
+          <a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqblFjZEczemdVSnZfZ29Xakx5M3RsbzlWMFdrd3xBQ3Jtc0tuSzZEN1hUWVBWV0ZBWmpVT3Z2M0o4TlloQkZ5Zl9pM3pLejc2Nkt2QnFIOHRqaDdVMDFxZ3VMYlJLSk00a2pIWDZPZ3g3SmJjTjNBWU1GUTdOU1VTTlA1eEJDZmxkXzhyQW55SXFVb0tYRkhxNVlBUQ&q=https%3A%2F%2Ft.me%2Fweb3flows"
+            className="block font-light text-lg leading-9 hover:cursor-pointer hover:underline"
+          >
+            hello@web3flows.com
+          </a>
         </div>
         <div>
           <h5 className="text-white font-medium mb-[13px]">FOLLOW</h5>
@@ -56,6 +66,7 @@ export const Footer = () => {
                 alt="Vector"
                 className="group-hover:hidden"
               />
+
               <img
                 src="./images/Vector-3-white.svg"
                 alt="Another Image"
