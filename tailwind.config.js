@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'medium': ['SharpGrotesk-Book25', 'sans'], // Вказуйте назву шрифту і замініть 'SharpGroteskMedium20' на фактичну назву
-        'sm-bold': ['SharpGroteskSmBold20', 'sans'], // Додайте таке саме для другого шрифту
+        'mediumStyle': ['SharpGrotesk-Book25', 'sans'], 
+        'fontStyle-bold': ['SharpGroteskSmBold20', 'sans'], 
       },
     },
   },

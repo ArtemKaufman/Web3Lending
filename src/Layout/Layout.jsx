@@ -8,18 +8,20 @@ import { InsigtghtsSection } from '../Components/InsigtghtsSection';
 import { LibrarySection } from '../Components/LibrarySection';
 import { FeedbackSection } from '../Components/FeedbackSection';
 import { Footer } from '../Components/Footer';
+import { Outlet } from 'react-router-dom';
 
 export const Layout = () => {
   return (
     <div>
       <Header />
-      <IntroSection />
+      <Outlet />
+      {/* <IntroSection />
       <ProofSection />
       <DiscoverSection />
       <OurExpertisingSection />
       <InsigtghtsSection />
       <LibrarySection />
-      <FeedbackSection />
+      <FeedbackSection /> */}
       <Footer />
     </div>
   );
