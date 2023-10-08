@@ -12,9 +12,7 @@ export const Header = () => {
   };
 
   const isOnTermsPage = location.pathname === '/terms' || location.pathname === '/privacy';
-  console.log(location);
-  console.log(location.pathname);
-  console.log(isOnTermsPage);
+
   return (
     <div className="border-b border-[#263039]">
 
