@@ -20,13 +20,13 @@ export const Footer = () => {
             PLATFORM
           </h5>
           <a
-            href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqbGV5RUp2ak9McGJPSklrNThseEdFTFFMcE5aQXxBQ3Jtc0ttVHRuY0dYQUVfaVYyanFYM0ZzcGFUWWpaZFkteW9NcjJnQmVJRk9pNkhqSzlwVEtwY1hIZHlERkxab1Bva0J2SjBxOG1GTEk2TWZyZkhmb0JYMU1zbzhRZXdDLS1qZU5lMUpON2FmelhoRm8wajBnVQ&q=https%3A%2F%2Ftwitter.com%2Fweb3_flows"
+            href="/terms"
             className="block font-light text-lg leading-9 hover:cursor-pointer hover:underline"
           >
             Terms and Conditions
           </a>
           <a
-            href="https://www.youtube.com/@web3flows"
+            href="/privacy"
             className=" block font-light text-lg leading-9 hover:cursor-pointer hover:underline"
           >
             Privacy Policy

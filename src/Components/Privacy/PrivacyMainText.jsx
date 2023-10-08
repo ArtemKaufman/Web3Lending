@@ -1,7 +1,7 @@
 import React from 'react'
-import { Typografy } from '../../Ui/Typografy'
+import { Typografy } from '../../Ui/Typografy';
 
-export const PrivacyText = ({ textObj }) => {
+export const PrivacyMainText = ({textObj}) => {
   const text = Object.values(textObj);
 
   return (
@@ -10,7 +10,5 @@ export const PrivacyText = ({ textObj }) => {
         {paragraph}
       </Typografy>
     ))
-
-
   )
 }
