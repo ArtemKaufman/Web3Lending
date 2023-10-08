@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typografy } from '../Ui/Typografy';
 import { privacyData } from '../data/privacyData';
-import { PrivacyText } from '../Components/Privacy/privacyText';
+import { PrivacyMainText } from '../Components/Privacy/PrivacyMainText';
 import { PrivacyList } from '../Components/Privacy/PrivacyList';
 import { PrivacyTextAfterList } from '../Components/Privacy/PrivacyTextAfterList';
 
@@ -20,7 +20,7 @@ export const PrivacyPolicy = () => {
             data.title && <Typografy type="titlePrivacy" key={data.title}>{data.title}</Typografy>
           }
             
-            <PrivacyText textObj={data.text} key={count} />
+            <PrivacyMainText textObj={data.text} key={count} />
             {
               data.list && <PrivacyList listObj={data.list} key={`PrivacyList ${count}`} />
             }

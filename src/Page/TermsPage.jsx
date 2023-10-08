@@ -1,7 +1,8 @@
 import React from 'react'
 import { Typografy } from '../Ui/Typografy';
 import { termsData } from '../data/termsData';
-import { PrivacyText } from '../Components/Privacy/privacyText';
+import { PrivacyMainText } from '../Components/Privacy/PrivacyMainText';
+
 
 
 export const TermsPage = () => {
@@ -18,7 +19,7 @@ export const TermsPage = () => {
               data.title && <Typografy type="titlePrivacy" key={data.title}>{data.title}</Typografy>
             }
             {
-              data.text && <PrivacyText textObj={data.text} key={count} />
+              data.text && <PrivacyMainText textObj={data.text} key={count} />
             }
           </div>
         ))
